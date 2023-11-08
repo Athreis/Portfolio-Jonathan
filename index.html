@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+
+
+    <!-- nav start -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10 ">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-xl text-primary block py-6">Athreis</a>
+                </div>
+
+                <div class="flex items-center p-4">
+                    <button id="hamburger" class="block absolute right-4 lg:hidden">
+                        <span class="navigasimobile transition duration-300 ease-in-out origin-top-left "></span>
+                        <span class="navigasimobile transition duration-300 ease-in-out"></span>
+                        <span class="navigasimobile transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+                    <nav id="NavBar" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px]
+                    w-full  right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+
+
+                            <li class="group"><a href="#home" class="text-base font-semibold
+                                py-2 px-8 group-hover:text-primary flex">Beranda</a></li>
+
+
+
+                                <li class="group"><a href="#about" class="text-base font-semibold
+                                    py-2 px-8 group-hover:text-primary flex">Tentang Saya</a></li>
+
+                                    <li class="group"><a href="#portoflio" class="text-base font-semibold
+                                        py-2 px-8 group-hover:text-primary flex">Portofolio</a></li>
+
+
+                                        <li class="group"><a href="#socialMedia" class="text-base font-semibold
+                                            py-2 px-8 group-hover:text-primary flex">Social Media</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+</header>
+    <!-- nav end -->
+
+
+    <!-- hero start -->
+
+    <section  id="home" class="pt-36">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-semibold text-primary md:text-xl lg:text-2xl">Hallo👋 saya,
+                         <span class="block font-bold text-slate-900 text-4xl mt-1 lg:text-5xl mb-2">Jonathan imanuel</span></h1>
+                    <h2 class="font-semibold text-slate-500 mb-2 lg:text-2xl">Front end Dev & <span class="text-primary ">UI/UX Designer</span></h2>
+                    <p class="font-medium text-slate-400 mb-10 leading-relaxed lg:font-semibold">Saya merupakan Mahasiswa aktif jurusan TI, Saya memiliki kemampuan dalam <span class="text-primary font-bold">Front End Dev dan UI/UX</span></p>
+                    <a href="#about" class="text-base font-semibold text-white bg-primary py-3 px-8
+                    rounded-full hover:shadow-lg hover:opacity-80 transition duration-150 ease-in-out">tentang saya</a>
+                </div>
+
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class=" relative mt-10 mb-5">
+                        <img src="jo.JPG" alt="" class="max-w-full mx-auto">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+       
+    </section>
+    <!-- hero end -->
+
+
+    <!-- About Start -->
+
+    <section id="about" class="pt-36 pb-32 ">
+        <div class="container">
+            <div class="flex flex-wrap ">
+                <div class="w-full px-4 mb-10 lg:w-1/2">
+                    <h4 class="font-bold text-primary text-lg uppercase mb-3 ">Tentang saya</h4>
+                    <h2 class="font-bold text-3xl mb-5 text-slate-600 max-w-xl lg:text-4xl">Front End Dev & <span class="text-primary underline">UI/UX Designer</span></h2>
+                    <p class="text-base text-slate-500 font-semibold lg:text-lg"> Saya memiliki kemampuan dalam design 
+                        dengan <span class="text-primary ">User interface dan mengerti dalam bidang front End Dev</span>
+                    </p>
+                    
+                </div>
+
+                <div class="w-full px-4 lg:w-1/2">
+                    <h3 class="font-semibold text-2xl mb-4 lg:text-3xl lg:pt-10">Tools Yang saya gunakan</h3>
+                    <p class="text-base text-slate-500 font-semibold mb-6">Dalam membuat sebuah UI yang interaktif dan bagus tentu kita akan menggunakan sebauh tools untuk
+                        menunjang serta membantu dalam pengerjaan, dan ini merupakan tools yang saya gunakan dalam membuat UI 
+                    </p>
+                    
+                    <div class="flex">
+                        <!-- html -->
+                        <div class="mr-3 text-red-500">
+                            <svg role="img" width = "30"  class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>HTML5</title><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/></svg>
+                        </div>
+                        <!-- tailwind -->
+                        <div class="mr-3 text-primary">
+                            <svg role="img"  width = "30"  class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Tailwind CSS</title><path d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"/></svg>
+                        </div>
+
+                        <!-- javascript -->
+                        <div class="mr-3 text-yellow-400">
+                            <svg role="img" width = "30"   class="fill-current"   viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>JavaScript</title><path d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"/></svg>
+                        </div>
+
+                        <!-- Figma -->
+                        <div class="mr-3 text-sky-500">
+                            <svg role="img" width = "30" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Figma</title><path d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zM12.735 7.51h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.02 3.019 3.02h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117V8.981H8.148zM8.172 24c-2.489 0-4.515-2.014-4.515-4.49s2.014-4.49 4.49-4.49h4.588v4.441c0 2.503-2.047 4.539-4.563 4.539zm-.024-7.51a3.023 3.023 0 0 0-3.019 3.019c0 1.665 1.365 3.019 3.044 3.019 1.705 0 3.093-1.376 3.093-3.068v-2.97H8.148zm7.704 0h-.098c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h.098c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49zm-.097-7.509c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h.098c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-.098z"/></svg>                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- About End -->
+
+
+    <!-- portofolio start -->
+        <section id="portoflio" class="pt-36 pb-16 bg-slate-100">
+            <div class="container">
+                    <div class="w-fu px-4">
+                        <div class="max-w-xl mx-auto text-center mb-16">
+                            <h4 class="font-bold text-3xl text-primary">Portfolio</h4>
+                            <h2  class="font-semibold text-xl">Project terbaru</h2>
+                            <p class="font-semibold text-slate-500">ini merupakan beberapa Project yang saya buat sendiri untuk kebutuhan pribadi maupun komersil</p>
+                        </div>
+                    </div>
+
+                    <div class="w-full px-4 flex flex-wrap justify-center">
+                        <div class="mb-12 p-4">
+                            <div class="rounded-md shadow-lg overflow-hidden text-slate-500">
+                                <svg role="img"  width="80 " class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>AddThis</title><path d="M18 13.496h-4.501v4.484h-3v-4.484H6v-2.99h4.5V6.021h3.001v4.485H18v2.99zM21 .041H3C1.348.043.008 1.379 0 3.031v17.94c.008 1.65 1.348 2.986 3 2.988h18c1.651-.002 2.991-1.338 3-2.988V3.031c-.009-1.652-1.348-2.987-3-2.99z"/></svg>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+        </section>
+    <!-- portofolio end -->
+
+
+
+    <!-- social media start -->
+
+        <section id="socialMedia">
+            <div class="container">
+                <div class="w-full px-16 pt-16 ">
+                    <div class="max-w-xl mx-auto text-center mb-16">
+                        <h4 class="font-bold text-3xl text-primary">Social Media</h4>
+                        <h2  class="font-semibold text-xl">Mari berteman melalui media sosial saya</h2>
+                        <div class="flex flex-wrap pt-16 justify-center">
+                            <!-- instagram -->
+                            <a href="https://www.instagram.com/athreis__/" class="w-11 h-11 border-2 border-slate-500 flex justify-center rounded-full text-slate-500 hover:bg-sky-500  hover:border-none hover:text-white transition duration-150 mr-3  ">
+                                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg>
+                            </a>
+
+                            <!-- Facebook -->
+                            <a href="https://web.facebook.com/jximanuel.jximanuel/" class="w-11 h-11 border-2 border-slate-500 flex justify-center rounded-full text-slate-500 hover:bg-sky-500  hover:border-none hover:text-white transition duration-150 mr-3  ">
+                                <svg role="img"   class="fill-current" width="20"   viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg>
+                            </a>
+
+                            <!-- Youtube -->
+                            <a href="https://www.youtube.com/@athreis2484" class="w-11 h-11 border-2 border-slate-500 flex justify-center rounded-full text-slate-500 hover:bg-sky-500  hover:border-none hover:text-white transition duration-150  ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20"  fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                                    <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                                  </svg>
+                            </a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!-- social media end -->
+    
+
+
+    <script src="main.js"></script>
+</body>
+</html>
